@@ -10,15 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    var luke = Luke() // create a generic class for our class Luke, next go to viewDidLoad
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       
+        luke.downloadLukeDetails {
+            // setup UI to load downloaded data
+        }
+    
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+   
 
 
 }
