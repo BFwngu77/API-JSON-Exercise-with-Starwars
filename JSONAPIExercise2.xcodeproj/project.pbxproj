@@ -110,12 +110,12 @@
 			children = (
 				8982AC571E24189B00B9DA5C /* AppDelegate.swift */,
 				8982AC591E24189B00B9DA5C /* ViewController.swift */,
+				89B598A21E24482C005686E3 /* Luke.swift */,
+				89B598A01E24457B005686E3 /* Constants.swift */,
 				8982AC5B1E24189B00B9DA5C /* Main.storyboard */,
 				8982AC601E24189B00B9DA5C /* LaunchScreen.storyboard */,
 				8982AC5E1E24189B00B9DA5C /* Assets.xcassets */,
 				8982AC631E24189B00B9DA5C /* Info.plist */,
-				89B598A01E24457B005686E3 /* Constants.swift */,
-				89B598A21E24482C005686E3 /* Luke.swift */,
 			);
 			path = JSONAPIExercise2;
 			sourceTree = "<group>";
